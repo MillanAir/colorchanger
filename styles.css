@@ -236,3 +236,26 @@ main {
 .color {
   color: var(--clr-primary-5);
 }
+/*
+========
+Card
+========
+*/
+card {
+  display: flex;
+}
+
+card div {
+  background: var(--clr-white);
+  height: 3rem;
+  display: grid;
+  align-items: center;
+  width: 33vw;
+  box-shadow: var(--dark-shadow);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--clr-primary-1);
+  letter-spacing: var(--spacing);
+  text-align: center;
+}
