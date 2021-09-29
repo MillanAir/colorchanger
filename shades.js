@@ -9,7 +9,7 @@ for(let i=1;i<=3;i++){
 }
 
 btn.addEventListener('click', ()=>{   
-    let hexColor;;
+    let hexColor;
 
     for(let i=0;i<3;i++){
         hexColor = getRandomHex();
